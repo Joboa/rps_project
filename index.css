@@ -1,0 +1,86 @@
+.container-1 {
+    border: 1px solid black;
+    max-width: 100%;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+   
+}
+
+.player {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    padding-top: 170px;
+    background-color: orange;
+    font-size: xx-large;
+}
+
+.computer {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    padding-top: 170px;
+    background-color: #e6ab3e;
+    font-size: xx-large;
+}
+
+.rpsOptions {
+    border: 1px solid black;
+    max-width: 100%;
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.scores {
+    border: 1px solid black;
+    border-bottom: none;
+    max-width: 100%;
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+}
+
+.displayWinner {
+    border: 1px solid black;
+    max-width: 100%;
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.playerScore {
+    border: none;
+    width: 50%;
+    display: flex;
+}
+
+.computerScore {
+    border: none;
+    width: 50%;
+    display: flex;
+}
+
+.player-name, .computer-name {
+    border: none;
+    width: 25%;
+}
+
+
+.player-score, .computer-score {
+    border: none;
+    width: 75%;
+    border-left: solid thin black;
+    padding-left: 5px;
+}
